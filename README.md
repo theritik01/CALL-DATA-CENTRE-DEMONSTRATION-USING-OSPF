@@ -119,5 +119,14 @@ This project briefly explains the concept of OSPF protocol and shows its impleme
 
 <h1 align="center"><strong>TESTING & ANALYSIS</strong></h1>
 <h3><b>1.	The CLI of router 0 shows the internet address with the subnet mask and broadcast address. Assignment of IP addresses is successful.</b></h3>
-![alt text](https://user-images.githubusercontent.com/99108259/207247418-34019523-184d-4e64-8aea-a04ffeb6cb89.jpg "Optional title")
-
+![1](https://user-images.githubusercontent.com/99108259/207248828-a71db3e5-b008-4eeb-b2ab-bf26d5e6b305.jpg)
+<h3><b>2. The OSPF protocol successfully configured at router 1.</b></h3>
+![2](https://user-images.githubusercontent.com/99108259/207249481-9957fbfc-707d-4ec4-b3d8-a698eeeee772.jpg)
+<h3><b>3.	Total addresses, IP address range, current index are shown on CLI of router0. Similarly we can check if the DHCP has been set up or not on other routers too. DHCP request on PC0 is successful.</b></h3>
+![3](https://user-images.githubusercontent.com/99108259/207249719-cb0e9431-3b30-4014-9971-7a6c3e5005ff.jpg)
+<h3><b>4.	Shows the DNS server (192.168.10.5) at zone1 resolving host names into IP addresses.</b></h3>
+![4 1](https://user-images.githubusercontent.com/99108259/207249845-ae40d31d-5e98-4d83-8ef6-a4e2483cc1d3.jpg)
+![4 2](https://user-images.githubusercontent.com/99108259/207249876-1b2be32c-5329-42d3-97e9-e31e3075b97a.jpg)
+<h3><b>Henceforth, the terminal can also be used to check faster implementations and testing our network by also getting a deep insight of the packets lost and the time it took to achieve the results with the loss percentage.</b></h3>
+<h3><b>5.	The following message displays the successful pinging of message packets from PC0(192.168.10.6) to PC2(192.168.10.22) and from PC6(192.168.10.8) to PC5(192.168.10.35)</b></h3>
+![5](https://user-images.githubusercontent.com/99108259/207250084-6903dead-52c6-442d-a1ed-127e69c63403.jpg)
